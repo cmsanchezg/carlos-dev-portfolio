@@ -1,0 +1,25 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.hero {
+    padding: 12px 8px;
+    text-align: center;
+    @include tablet {
+        margin: 24px 16px;
+    }
+
+      &__social__icon {
+        width: 25px;
+    }
+      &__social {
+        
+    }
+
+      &__social__icon {
+        width: 25px;
+    }
+
+    &__social__icon {
+        width: 25px;
+    }
+}
