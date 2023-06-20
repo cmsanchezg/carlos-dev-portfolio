@@ -8,7 +8,7 @@
     background-color: $background-primary;
     color: $white;
     @include tablet {
-        margin: 24px 16px;
+        padding: 24px 16px;
     }
 
     &__info {
