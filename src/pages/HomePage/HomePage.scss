@@ -1,2 +1,12 @@
 @use '../../styles/partials/variables' as *;
 @use '../../styles/partials/mixins' as *;
+
+.homePage {
+
+    &__header__hero {
+        background-image: url(../../assets/images/stars_with_clouds.webp);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

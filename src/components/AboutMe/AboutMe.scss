@@ -2,6 +2,35 @@
 @use '../../styles/partials/mixins' as *;
 
 .aboutMe {
+    padding: 12px 8px;
+    text-align: center;
+    background-color: $background-primary;
+    color: $white;
+
+    &__image {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        margin-bottom: 8px;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 8px;
+    }
+    
+    &__card {
+        padding: 8px;
+        border: 1.5px $white solid;
+        border-radius: 5px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        box-shadow: $gray 0px 0px 4px 1px;
+        &:hover {
+            box-shadow: $white 0px 0px 4px 2px;
+        }
+    }
 
     &__icon {
         width: 50px;

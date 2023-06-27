@@ -7,8 +7,10 @@ import AboutMe from '../../components/AboutMe/AboutMe';
 function HomePage() {
     return (
         <>
-        <Header/>
-        <Hero/>
+        <section className='homePage__header__hero'>
+            <Header/>
+            <Hero/>
+        </section>
         <AboutMe/>
         </>
     );

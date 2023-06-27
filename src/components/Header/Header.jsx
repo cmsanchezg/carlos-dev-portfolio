@@ -12,6 +12,7 @@ function Header() {
                 <img className='header__headshot' src={headShot} alt="Carlos Sanchez headshot"/>
                 <p className=' header__name'>Carlos Sanchez</p>
             </section>
+            
             <section className='header__nav'>
                 <div className='header__hamburger__menu'>
                     <input type="checkbox"  id='checkbox' className='header__checkbox  header__hidden'/> 

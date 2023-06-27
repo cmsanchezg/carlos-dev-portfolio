@@ -9,15 +9,10 @@ span {
 }
 
 .hero {
-    background-image: url(../../assets/images/stars_with_clouds.webp);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $background-primary;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding: 16px 12px;
+    padding: 8px 12px;
     text-align: center;
     color: $white;
     @include tablet {
