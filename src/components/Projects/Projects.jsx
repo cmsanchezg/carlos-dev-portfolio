@@ -15,6 +15,7 @@ function Projects() {
                     <div className='projects__card__text'>                
                         <p className='projects__card__title'>(project name)</p>
                         <p className='projects__card__description'>(project short description)</p>
+                        <p className='projects__card__skills'>(project skills)</p>
                     </div>
                     <div className='projects__card__buttons'>
                         <Link className='projects__card__link'>
@@ -32,6 +33,7 @@ function Projects() {
                     <div className='projects__card__text'>                
                         <p className='projects__card__title'>(project name)</p>
                         <p className='projects__card__description'>(project short description)</p>
+                        <p className='projects__card__skills'>(project skills)</p>
                     </div>
                     <div className='projects__card__buttons'>
                         <Link className='projects__card__link'>
