@@ -4,6 +4,7 @@ import linkedin from '../../assets/icons/linkedin.svg';
 import gitHub from '../../assets/icons/github.svg';
 import email from '../../assets/icons/email.svg';
 import resume from '../../assets/icons/resume.png';
+import { ReactComponent as Arrow } from '../../assets/icons/down-arrow.svg'
 
 function Hero() {
     return (
@@ -16,7 +17,10 @@ function Hero() {
                 <img className='hero__social__icon' src={email} alt="Email Logo"/>
                 <img className='hero__social__icon' src={resume} alt="Resume Logo"/>
             </section>    
-            <p className='hero__scroll__down'>Scroll down to get to know me better!</p>
+            <section className='hero__scroll__down'>
+                <p>Scroll down to get to know me better!</p>
+                <Arrow className='hero__down__arrow'/>
+            </section>
         </article>
     );
 }
