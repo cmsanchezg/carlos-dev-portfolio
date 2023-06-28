@@ -11,29 +11,52 @@
         height: 100px;
         width: 100px;
         border-radius: 50px;
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
 
     &__cards {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
     
     &__card {
-        padding: 8px;
-        border: 1px $white solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border-radius: 5px;
         margin-bottom: 8px;
+        width: 95px;
+        height: 110px;
         cursor: pointer;
-        box-shadow: $gray 0px 0px 4px 1px;
+        box-shadow: $white 0px 0px 4px 1px;
         &:hover {
-            box-shadow: $white 0px 0px 4px 2px;
+            box-shadow: $white 0px 0px 4px 3px;
         }
     }
 
-    &__icon {
+    &__card__icon {
         width: 50px;
         height: 50px;
+        margin-bottom: 12px;
+    }
+
+    &__story {
+        margin-bottom: 16px;
+    }
+
+    &__cv {
+        color: $white;
+        font-size: 18px;
+        background-color: $gray;
+        padding: 8px 14px;
+        border: 1px $white solid;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: $white 0px 0px 4px 1px;
+        &:hover {
+            box-shadow: $white 0px 0px 4px 3px;
+        }
     }
 }

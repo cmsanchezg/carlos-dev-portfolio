@@ -13,25 +13,22 @@ function AboutMe() {
             <img className='aboutMe__image' src={headshot} alt="Carlos Sanchez" />
             <div className='aboutMe__cards'>
                 <div className='aboutMe__card'>
-                <img className='aboutMe__icon' src={education} alt="Carlos Sanchez" />
-                    {/* <Education className='aboutMe__icon'/> */}
-                    <p>Education</p>
-                    <p>(Diploma)</p>
+                    <img className='aboutMe__card__icon' src={education} alt="Carlos Sanchez" />
+                    <p className='aboutMe__card__header'>Education</p>
+                    <p className='aboutMe__card__subheader'>(Diploma)</p>
                 </div>
                 <div className='aboutMe__card'>
-                    {/* <Experience className='aboutMe__icon'/> */}
-                    <img className='aboutMe__icon' src={experience} alt="Carlos Sanchez" />
-                    <p>Experience</p>
-                    <p>(6+ months)</p>
+                    <img className='aboutMe__card__icon' src={experience} alt="Carlos Sanchez" />
+                    <p className='aboutMe__card__header'>Experience</p>
+                    <p className='aboutMe__card__subheader'>(6+ months)</p>
                 </div>
                 <div className='aboutMe__card'>
-                    {/* <Projects className='aboutMe__icon'/> */}
-                    <img className='aboutMe__icon' src={projects} alt="Carlos Sanchez" />
-                    <p>Projects</p>
-                    <p>(6+ projects)</p>
+                    <img className='aboutMe__card__icon' src={projects} alt="Carlos Sanchez" />
+                    <p className='aboutMe__card__subheader'>Projects</p>
+                    <p className='aboutMe__card__subheader'>(5+ projects)</p>
                 </div>
             </div>
-            <div>
+            <div className='aboutMe__story'>
                 <p>
                     After more than a decade in hospitality industry, I recently made the transition to become a Software Developer. I've
                     always had a knack for solving problems and playing around with technology, which eventually led me to complete a
@@ -41,7 +38,7 @@ function AboutMe() {
                 </p>
             </div>
             <Link>
-                See my CV!
+                <button className='aboutMe__cv'>See my CV!</button>
             </Link>
 
         </article>
