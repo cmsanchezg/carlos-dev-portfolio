@@ -3,6 +3,7 @@ import '../HomePage/HomePage.scss';
 import Header from "../../components/Header/Header";
 import Hero from "../../components/Hero/Hero";
 import AboutMe from '../../components/AboutMe/AboutMe';
+import Projects from '../../components/Projects/Projects';
 
 function HomePage() {
     return (
@@ -12,6 +13,7 @@ function HomePage() {
             <Hero/>
         </section>
         <AboutMe/>
+        <Projects/>
         </>
     );
 }

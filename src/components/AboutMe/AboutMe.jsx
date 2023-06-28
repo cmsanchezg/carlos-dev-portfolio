@@ -37,8 +37,8 @@ function AboutMe() {
                     learn and explore new technologies and coding languages, and I thrive in the fast-paced and dynamic environment.
                 </p>
             </div>
-            <Link>
-                <button className='aboutMe__cv'>See my CV!</button>
+            <Link className='aboutMe__link__cv'>
+                <button className='aboutMe__button__cv'>See my CV!</button>
             </Link>
 
         </article>

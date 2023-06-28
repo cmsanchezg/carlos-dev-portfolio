@@ -1,0 +1,81 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.projects {
+    padding: 12px 8px;
+    background-image: url(../../assets/images/stars_with_clouds.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+
+    &__header {
+        font-size: 46px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__card {
+        width: 45%;
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        border: 1px solid;
+        border-radius: 5px;
+        background-color: $background-primary;
+        box-shadow: $white 0px 0px 4px 0px;
+    }
+
+    &__card__image {
+        width: 50px;
+        height: 50px;
+    }
+
+    &__card__text {
+        text-align: center;
+    }
+
+    &__card__title {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &__card__description {
+        font-size: 16px;
+    }
+
+    &__card__buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__card__link {
+        width: 45%;
+    }
+
+    &__card__button {
+        background-color: $gray;
+        border: none;
+        color: $white;
+        font-size: 12px;
+        width: 100%;
+        padding: 6px 0px;
+        border: 1px $white solid;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: $white 0px 0px 4px 0px;
+        &:hover {
+            box-shadow: $white 0px 0px 4px 3px;
+        }
+    }
+}

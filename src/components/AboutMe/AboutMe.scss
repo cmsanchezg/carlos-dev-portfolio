@@ -46,10 +46,11 @@
         margin-bottom: 16px;
     }
 
-    &__cv {
+    &__button__cv {
+        background-color: $gray;
+        border: none;
         color: $white;
         font-size: 18px;
-        background-color: $gray;
         padding: 8px 14px;
         border: 1px $white solid;
         border-radius: 5px;
