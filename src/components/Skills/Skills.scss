@@ -12,4 +12,26 @@
         margin-bottom: 8px;
         font-weight: 600;
     }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &__wrap {
+        background-image: url(../../assets/images/stars_with_clouds.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: $white 0px 0px 4px 0px;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
 }
