@@ -34,6 +34,9 @@ function Header() {
                             <NavLink className='header__nav__link'>Projects</NavLink>
                         </li>
                         <li className='header__nav__item'>
+                            <NavLink className='header__nav__link'>Skills</NavLink>
+                        </li>
+                        <li className='header__nav__item'>
                             <NavLink className='header__nav__link'>Contact</NavLink>
                         </li>
                     </ul>
@@ -47,6 +50,9 @@ function Header() {
                     </li>
                     <li className='header__nav__item header__nav__item--tablet'>
                         <NavLink className='header__nav__link header__nav__link--tablet'>Projects</NavLink>
+                    </li>
+                    <li className='header__nav__item header__nav__item--tablet'>
+                        <NavLink className='header__nav__link header__nav__link--tablet'>Skills</NavLink>
                     </li>
                     <li className='header__nav__item header__nav__item--tablet'>
                         <NavLink className='header__nav__link header__nav__link--tablet'>Contact</NavLink>
