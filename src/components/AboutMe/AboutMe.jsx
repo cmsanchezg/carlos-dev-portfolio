@@ -4,8 +4,13 @@ import headshot from '../../assets/images/carlos-sanchez-image.jpeg';
 import education from '../../assets/icons/education.svg';
 import experience from '../../assets/icons/experience.svg';
 import projects from '../../assets/icons/projects.svg';
+import cv from '../../assets/documents/Carlos_Sanchez_Web_Developer_Resume.pdf';
 
 function AboutMe() {
+
+    const handleClickCv = () => {
+        window.open(cv)
+    }
 
     return (
         <>
@@ -38,9 +43,10 @@ function AboutMe() {
                     learn and explore new technologies and coding languages, and I thrive in the fast-paced and dynamic environment.
                 </p>
             </div>
-            <Link className='aboutMe__link__cv'>
+            <Link className='aboutMe__link__cv' onClick={handleClickCv}>
                 <button className='aboutMe__button__cv'>See my CV!</button>
             </Link>
+            <Link ></Link>
 
         </article>
         </>
