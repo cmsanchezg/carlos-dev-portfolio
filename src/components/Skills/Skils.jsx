@@ -4,7 +4,7 @@ function Skills() {
 
     return (
         <>
-       <article className='skills'>
+       <article className='skills' id='skills'>
            <h1 className='skills__header'>Skills</h1>
            <div className='skills__container'>
                 <div className='skills__wrap'>

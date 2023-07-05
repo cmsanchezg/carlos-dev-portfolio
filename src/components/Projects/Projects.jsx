@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Projects() {
     return (
-        <article className='projects'>
+        <article className='projects' id='projects'>
             <p className='projects__header'>Projects</p>
             
             <div className='projects__cards'>

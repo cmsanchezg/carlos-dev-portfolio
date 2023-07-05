@@ -5,6 +5,13 @@ import headShot from '../../assets/images/carlos-sanchez-image.jpeg';
 
 function Header() {
 
+    const handleClickScroll = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({behavior: 'smooth'});
+        }
+    };
+
     return (
         <>
        <article className='header'>
@@ -24,37 +31,37 @@ function Header() {
                         </div> 
                     </label>
                     <ul className='header__nav__links'>
-                        <li className='header__nav__item'>
+                        <li className='header__nav__item' onClick={() => handleClickScroll('homePage')}>
                             <NavLink className='header__nav__link'>Home</NavLink>
                         </li>
-                        <li className='header__nav__item'>
+                        <li className='header__nav__item' onClick={() => handleClickScroll('aboutMe')}>
                             <NavLink className='header__nav__link'>About Me</NavLink>
                         </li>
-                        <li className='header__nav__item'>
+                        <li className='header__nav__item' onClick={() => handleClickScroll('projects')}>
                             <NavLink className='header__nav__link'>Projects</NavLink>
                         </li>
-                        <li className='header__nav__item'>
+                        <li className='header__nav__item' onClick={() => handleClickScroll('skills')}>
                             <NavLink className='header__nav__link'>Skills</NavLink>
                         </li>
-                        <li className='header__nav__item'>
+                        <li className='header__nav__item' onClick={() => handleClickScroll('contact')}>
                             <NavLink className='header__nav__link'>Contact</NavLink>
                         </li>
                     </ul>
                 </div>
                 <ul className='header__nav__links header__nav__links--tablet'>
-                    <li className='header__nav__item header__nav__item--tablet'>
+                    <li className='header__nav__item header__nav__item--tablet' onClick={() => handleClickScroll('homePage')}>
                         <NavLink className='header__nav__link header__nav__link--tablet'>Home</NavLink>
                     </li>
-                    <li className='header__nav__item header__nav__item--tablet'>
+                    <li className='header__nav__item header__nav__item--tablet' onClick={() => handleClickScroll('aboutMe')}>
                         <NavLink className='header__nav__link header__nav__link--tablet'>About Me</NavLink>
                     </li>
-                    <li className='header__nav__item header__nav__item--tablet'>
+                    <li className='header__nav__item header__nav__item--tablet' onClick={() => handleClickScroll('projects')}>
                         <NavLink className='header__nav__link header__nav__link--tablet'>Projects</NavLink>
                     </li>
-                    <li className='header__nav__item header__nav__item--tablet'>
+                    <li className='header__nav__item header__nav__item--tablet' onClick={() => handleClickScroll('skills')}>
                         <NavLink className='header__nav__link header__nav__link--tablet'>Skills</NavLink>
                     </li>
-                    <li className='header__nav__item header__nav__item--tablet'>
+                    <li className='header__nav__item header__nav__item--tablet' onClick={() => handleClickScroll('contact')}>
                         <NavLink className='header__nav__link header__nav__link--tablet'>Contact</NavLink>
                     </li>
                 </ul> 

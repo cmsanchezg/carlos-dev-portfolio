@@ -9,7 +9,7 @@ function AboutMe() {
 
     return (
         <>
-       <article className='aboutMe'>
+       <article className='aboutMe' id='aboutMe'>
             <h1 className='aboutMe__header'>About Me</h1>
             <img className='aboutMe__image' src={headshot} alt="Carlos Sanchez" />
             <div className='aboutMe__cards'>

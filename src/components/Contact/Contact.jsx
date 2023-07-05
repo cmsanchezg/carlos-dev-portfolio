@@ -5,7 +5,7 @@ function Contact() {
 
     return (
         <>
-       <article className='contact'>
+       <article className='contact' id='contact'>
             <h1 className='contact__header'>Lets get in touch!</h1>
             <form className='contact__forms' action="">
                 <div className='contact__form'>

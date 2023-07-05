@@ -10,7 +10,7 @@ import Skills from '../../components/Skills/Skils';
 function HomePage() {
     return (
         <>
-        <section className='homePage__header__hero'>
+        <section className='homePage__header__hero' id='homePage'>
             <Header/>
             <Hero/>
         </section>
