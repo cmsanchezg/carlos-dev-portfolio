@@ -96,6 +96,10 @@
     }
 
     &__nav__links {
+        background-image: url(../../assets/images/stars_with_clouds.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -115,6 +119,7 @@
                 justify-content: space-around;
                 box-shadow: none;
                 background-color: transparent;
+                background-image: none;
             }
         }
     }
