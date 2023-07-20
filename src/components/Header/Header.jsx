@@ -2,8 +2,22 @@ import './Header.scss';
 import { NavLink } from 'react-router-dom';
 
 import headShot from '../../assets/images/carlos-sanchez-image.jpeg';
+import { useState } from 'react';
 
 function Header() {
+
+    const [colorChange, setColorChange] = useState (false)
+
+    const changeHeaderColor = () => {
+        if (window.scrollY >= 15) {
+              setColorChange (true);
+        }
+        else {
+            setColorChange (false);
+        }
+    };
+    window.addEventListener ('scroll', changeHeaderColor);
+
 
     const handleClickScroll = (sectionId) => {
         const section = document.getElementById(sectionId);
@@ -14,7 +28,7 @@ function Header() {
 
     return (
         <>
-       <article className='header'>
+       <article className={colorChange ? "header header__colorChange" : "header"}>
             <section className='header__info'>
                 <img className='header__headshot' src={headShot} alt="Carlos Sanchez headshot"/>
                 <p className=' header__name'>Carlos Sanchez</p>
