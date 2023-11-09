@@ -26,10 +26,30 @@
         // background-size: cover;
         box-shadow: $white 0px 0px 4px 0px;
         border: 1px solid;
-        border-radius: 5px;
+        // border-radius: 5px;
         padding: 10px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    &__wrap__title {
+        margin: 10px 0px;
+    }
+
+    &__wrap__icons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__wrap__box {
+        background-color: $background-secondary;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 

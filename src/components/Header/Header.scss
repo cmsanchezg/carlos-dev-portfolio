@@ -105,16 +105,16 @@
     }
 
     &__nav__links {
-        background-image: url(../../assets/images/stars_with_clouds.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        // background-image: url(../../assets/images/stars_with_clouds.webp);
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        background-color: $background-secondary;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        background-color: $background-primary;
         text-transform: uppercase;
         left: 0;
         @include tablet {
@@ -126,8 +126,6 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
-                box-shadow: none;
-                background-color: transparent;
                 background-image: none;
             }
         }
@@ -135,16 +133,23 @@
 
     &__nav__item {
         overflow: hidden;
+        // padding: 6px 7px;
+        // &:hover {
+        //     box-shadow: 0px 0px 4px 2px;
+        //     border: $white;
+        //     background-color: $background-primary;
+        // }
     }
 
     &__nav__link {
         color: $white;
         text-decoration: none;
-        padding: 6px 7px;
-        &:hover {
-            box-shadow: 0px 0px 4px 2px;
-            border: $white;
-        }
+        padding: 6px 15px;
+        // &:hover {
+        //     box-shadow: 0px 0px 4px 2px;
+        //     border: $white;
+        //     background-color: $background-primary;
+        // }
     }
 
     &__checkbox ~ &__nav__links {
