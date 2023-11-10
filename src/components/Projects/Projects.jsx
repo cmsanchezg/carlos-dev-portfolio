@@ -19,9 +19,6 @@ function Projects() {
                     </div>
                     <div className='projects__card__buttons'>
                         <Link className='projects__card__link'>
-                            <button className='projects__card__button'>Website</button>
-                        </Link>
-                        <Link className='projects__card__link'>
                             <button className='projects__card__button'>Code</button>
                         </Link>
                     </div>
@@ -36,9 +33,6 @@ function Projects() {
                         <p className='projects__card__skills'>(project skills)</p>
                     </div>
                     <div className='projects__card__buttons'>
-                        <Link className='projects__card__link'>
-                            <button className='projects__card__button'>Website</button>
-                        </Link>
                         <Link className='projects__card__link'>
                             <button className='projects__card__button'>Code</button>
                         </Link>
