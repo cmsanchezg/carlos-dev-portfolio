@@ -12,11 +12,11 @@ span {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding: 85px 12px 8px;
+    padding: 90px 12px 12px;
     text-align: center;
     color: $white;
     @include tablet {
-        padding: 85px 24px 16px;
+        padding: 130px 24px 40px;
     }
 
     &__social__icon {
